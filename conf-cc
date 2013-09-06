@@ -1,0 +1,6 @@
+gcc -g -O2 -I. -include /usr/include/errno.h -Wall -Wimplicit -Wunused -Wcomment -Wchar-subscripts -Wuninitialized -Wshadow -Wcast-qual -Wcast-align -Wwrite-strings -DUSE_LOCMAPS -DUSE_SFHASH -DUSE_TOUCH_RELOADS -DHAVE_MMAP_READAHEAD
+
+
+you can use LOCAL_CFLAGS="-DUSE_LOCMAPS -DUSE_SFHASH -DUSE_TOUCH_RELOADS -DDEBUG_MODE -DHAVE_MMAP_READAHEAD" make && make setup check
+
+This will be used to compile .c files.

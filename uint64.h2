@@ -1,0 +1,13 @@
+#ifndef UINT64_H
+#define UINT64_H
+
+/* sysdep: +ulong64 */
+
+typedef unsigned long uint64;
+
+extern void uint64_pack(unsigned char *,uint64);
+extern void uint64_pack_big(unsigned char *,uint64);
+extern void uint64_unpack(const unsigned char *,uint64 *);
+extern void uint64_unpack_big(const unsigned char *,uint64 *);
+
+#endif

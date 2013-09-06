@@ -1,0 +1,10 @@
+2011-02-01 - geoipdns-0.03
+  * include sys/inotify.h rather than linux/inotify.h in evq.h
+  * watch for update via IN_ATTRIB rather than IN_OPEN
+
+2010-07-30 - geoipdns-0.02
+  * removed tlogger.o and generic-conf.o from distro and updated TARGETS
+  * added CHANGELOG
+
+2010-03-17 - geoipdns-0.01
+  * initial release

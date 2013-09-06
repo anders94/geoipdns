@@ -1,0 +1,3 @@
+gcc -s $LOCAL_LDFLAGS 
+
+This will be used to link .o files into an executable.

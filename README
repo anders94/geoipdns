@@ -1,0 +1,16 @@
+geoipdns 0.1
+Copyright 2009
+Adrian Ilarion Ciobanu
+
+geoipdns home page: http://geoipdns.com/
+Installation instructions: http://geoipdns.com/documentation/installation/
+
+geoipdns is derived from D. J. Bernstein's djbdns.
+
+djbdns 1.05
+20010211
+Copyright 2001
+D. J. Bernstein
+
+djbdns home page: http://cr.yp.to/djbdns.html
+Installation instructions: http://cr.yp.to/djbdns/install.html
