@@ -92,8 +92,8 @@ void makelog(const char *user,int uid,int gid)
 
   start("log/run");
   outs("#!/bin/sh\nexec");
-  outs(" setuidgid "); outs(user);
-  outs(" multilog t ./main\n");
+  outs(" chpst -u "); outs(user);
+  outs(" svlogd -tt ./main\n");
   finish();
   perm(0755);
 }
